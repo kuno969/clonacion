@@ -8,7 +8,7 @@ from io import BytesIO
 st.title("Generador de Diagrama de Ramachandran")
 st.text("Autor: Edgardo Cuba Alarcon")
 
-st.sidebar.image("ramachandran_logo.png", caption="inRamachandran")
+st.sidebar.image("xray.png", caption="inRamachandran")
 
 pdb_id = st.text_input("Escribe el código PDB de 4 dígitos, por ejemplo: ", "3PL1")
 pdb_file = fetch_pdb(pdb_id)
